@@ -98,7 +98,7 @@ html {
         left: 0;
         right: 0;
         z-index: 1;
-        overflow: hidden;
+       
 }
 
 #nav {
@@ -160,6 +160,13 @@ html {
 
 #nav .nav-arround-down {
     font-size: 14px;
+}
+
+#header .menu-mobile-btn {
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: none;
 }
 #header .menu-mobile-btn,
 #header .searchbtn {
@@ -300,7 +307,7 @@ html {
 }
 /* Places */
 .place-list {
-    margin-top: 32px;
+    margin-top: 16px;
     padding-bottom: 48px;
 }
 
